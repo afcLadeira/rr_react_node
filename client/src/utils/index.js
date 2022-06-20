@@ -1,4 +1,4 @@
-export function fetchData(url) {
+export async function fetchData(url) {
     return new Promise((resolve, reject) => {
      fetch(url ? url : "/api/test")
         .then((response) => response.json())

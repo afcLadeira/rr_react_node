@@ -13,6 +13,8 @@ import {
 } from "@chakra-ui/react";
 
 export default function ReactQueryTest() {
+
+  
   const { data, error, status, refetch , isFetching } = useQuery("users", () =>
     fetchData("/api/users")
   );

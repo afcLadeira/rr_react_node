@@ -10,11 +10,7 @@ function NamesProvider(props) {
     currentName: "",
     namesList: [],
   }));
-  console.log(
-    "🚀 ~ file: UseContextTest.js ~ line 9 ~ NamesProvider ~ state",
-    state
-  );
-
+  
   function clearList() {
     setState((prevState) => ({ ...prevState, lastName: "", namesList: [] }));
   }
