@@ -37,7 +37,7 @@ export default function CustomApiHook() {
           (data) =>  setState(prevState => ({...prevState , loading: false , data})),
           (error) =>  setState(prevState => ({...prevState , loading: false , error}))
         );
-      }, []);
+      }, [url]);
   
   
     return {loading: state.loading , data: state.data , error : state.error}

@@ -1,11 +1,10 @@
-import { Button, Heading, Spinner, Tag } from "@chakra-ui/react";
+import { Button, Heading, Spinner } from "@chakra-ui/react";
 import { useQuery } from "react-query";
 import { fetchData } from "../../utils";
 import {
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
