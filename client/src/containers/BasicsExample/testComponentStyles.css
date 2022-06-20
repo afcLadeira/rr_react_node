@@ -1,0 +1,9 @@
+.c-red {
+    color:red;
+}
+.c-blue {
+    color:'blue';
+}
+.bold-800 {
+    font-weight: 800;
+}

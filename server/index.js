@@ -4,11 +4,10 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
+const routes = require('./routes')
 
-app.get('/api' , (req,res) => {
-    return res.json({ message : "pong"})
-})
+app.use('/api', routes);
 
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
-});
+}); 
