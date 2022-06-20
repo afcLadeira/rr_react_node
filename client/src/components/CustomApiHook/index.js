@@ -7,7 +7,7 @@ export default function CustomApiHook() {
   
     return (
       <div style={{display:'flex' ,flexDirection:'column', justifyContent:'center'}}>
-        <h4>Random Animal</h4>
+        <h4>Random Animal</h4>  
  {data ?   
 <>  
         <div>Name: {data.name}</div>

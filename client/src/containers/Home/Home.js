@@ -5,6 +5,7 @@ import UseContextExample from "../UseContextExample";
 import UseReducerExample from "../UseReducerExample";
 import ReactHookFormExample from "../ReactHookFormExample";
 import ReactQueryExample from "../ReactQueryExample";
+import RenderPropsExample from "../RenderPropsExample";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           <Tab>useContext</Tab>
           <Tab>useReducer</Tab>
           <Tab>React Query</Tab>
+          <Tab>render props</Tab>
           <Tab>Basics</Tab>
         </TabList>
 
@@ -30,6 +32,9 @@ export default function Home() {
           </TabPanel>
           <TabPanel>
             <ReactQueryExample></ReactQueryExample>
+          </TabPanel>
+          <TabPanel>
+            <RenderPropsExample></RenderPropsExample>
           </TabPanel>
           <TabPanel>
             <TestComponent></TestComponent>
